@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header">
+    <div class="header__date">
+      <p class="header__date-text">Среда, 13 окт</p>
+    </div>
+    <div class="header__analytics">
+      <div class="header__analytics-block">
+        <p class="header__analytics-text">Новые звонки <span class='header__analytics-text--green'>20 из 30 шт</span>
+        </p>
+        <div class="header__analytics-progressbar">
+          <div class="header__analytics-progressbar-filled--green"></div>
+        </div>
+      </div>
+      <div class="header__analytics-block">
+        <p class="header__analytics-text">Качество разговоров <span class='header__analytics-text--yellow'>40%</span>
+        </p>
+        <div class="header__analytics-progressbar">
+          <div class="header__analytics-progressbar-filled--yellow"></div>
+        </div>
+      </div>
+      <div class="header__analytics-block">
+        <p class="header__analytics-text">Конверсия в заказ <span class='header__analytics-text--red'>67%</span></p>
+        <div class="header__analytics-progressbar">
+          <div class="header__analytics-progressbar-filled--red"></div>
+        </div>
+      </div>
+    </div>
+    <div class="header__profile">
+      <div class="header__profile-search">
+        <img src="./images/search.svg" alt="search" class="header__profile-search-icon">
+      </div>
+      <div class="header__name-container">
+        <p class="header__name">ИП Сидорова Александра Михайловна</p>
+        <img src="./images/arrowdown.svg" alt="arrowdown" class="header__name-dropdown">
+      </div>
+      <div class="header__avatar-container">
+        <img src="./images/img.png" alt="avatar" class="header__avatar">
+        <img src="./images/arrowdown.svg" alt="arrowdown" class="header__avatar-dropdown">
+      </div>
+    </div>
+  </header>
+  <main class="main">
+    <aside class='sidebar'>
+      <div class="sidebar__logo">
+        <img src="./images/logo.svg" alt="logo">
+      </div>
+      <nav class="sidebar__links">
+        <a href="#" class="sidebar__link">
+          <img class='sidebar__link-icon' src="./images/timeline.svg" alt="timeline">
+          <p class='sidebar__text'>Итоги</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img class='sidebar__link-icon' src="./images/orders.svg" alt="timeline">
+          <p class='sidebar__text'>Заказы</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img class='sidebar__link-icon' src="./images/mail.svg" alt="timeline">
+          <p class='sidebar__text'>Сообщения</p>
+        </a>
+        <a href="#" class="sidebar__link sidebar__link--active">
+          <img src="./images/calls.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Звонки</p>
+          <div class="sidebar__link-circle"></div>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/people.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Контрагенты</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/documents.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Документы</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/dude.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Исполнители</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/briefcase.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Отчеты</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/library.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">База знаний</p>
+        </a>
+        <a href="#" class="sidebar__link">
+          <img src="./images/settings.svg" alt="" class="sidebar__link-icon">
+          <p class="sidebar__text">Настройки</p>
+        </a>
+      </nav>
+      <div class="sidebar__buttons">
+        <button class="sidebar__button">
+          <p class="sidebar__button-text">Добавить заказ</p>
+          <img src="./images/plus.svg" alt="" class="sidebar__button-icon">
+        </button>
+        <button class="sidebar__button">
+          <p class="sidebar__button-text">Оплата</p>
+          <img src="./images/alert.svg" alt="" class="sidebar__button-icon">
+        </button>
+      </div>
+    </aside>
+    <div class="main-container"></div>
+  </main>
+  <footer class="footer"></footer>
+</body>
+
+</html>
